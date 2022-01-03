@@ -26,6 +26,7 @@ def algoritmoDijkstra(inicio,final,grafo):
             if(minimo>lista[x]):
                 minimo=lista[x]
                 v= x
+
         #Eliminamos el valor v de la lista T
         T=[x for x in T if x != v] 
 

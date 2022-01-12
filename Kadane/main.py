@@ -1,4 +1,4 @@
-array = [-3, -4, 5, -1, 2, -4, 6, -4,5]
+array = [-3, -4, 5, -1, 2, -4, 6]
 
 """
 def maximumSubarraySum(array):
@@ -19,14 +19,13 @@ def maximumSubarraySum(array):
 
 """
 def maximumSubarraySum(array):
-    n = len(array)
-    maxSum = -1e8
-    currSum = 0
+    maxSum = -1e8 #value maximum
     cont=0
+    currSum = 0 
     arraySum=[]
 
-    for i in range(0, n):
-        currSum = currSum + array[i]
+    for i in range(0, len(array)):
+        currSum += array[i]
         if(currSum > maxSum):
             arraySum=array[cont:i+1]
             maxSum = currSum
@@ -37,5 +36,6 @@ def maximumSubarraySum(array):
     return maxSum,arraySum 
 
 
-
-print(maximumSubarraySum(array))
+maxSum, arraySum = maximumSubarraySum(array) 
+print("maxSum:",maxSum)
+print("arraySum:",arraySum)

@@ -1,4 +1,7 @@
-array = [1,2,3,8,5,6,7,8]
+import time
+begin = time.time()
+
+array = list(range(100000000))
 
 def linearSearch(array,element,unique=True):
     indexList=[]
@@ -9,4 +12,7 @@ def linearSearch(array,element,unique=True):
             indexList.append(index)
     return indexList if not unique else -1
 
-print(linearSearch(array,0))
+
+print(linearSearch(array,99988800))
+finish = time.time()
+print(finish-begin)

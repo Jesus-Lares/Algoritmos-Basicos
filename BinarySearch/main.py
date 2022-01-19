@@ -32,7 +32,7 @@ def binarySearch(arr, l, r, x):
 
  
 arr = list(range(1,100000000))
-x = 10
+x = 99988800  
  
 #result = binarySearch(arr, x)                  ## First function
 result = binarySearch(arr, 0, len(arr)-1, x)    ## Second function

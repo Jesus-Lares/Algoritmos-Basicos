@@ -1,6 +1,6 @@
 array=[45,15,35,2,18,68,48,69,48,32,12,10]
 
-def sort(array,order="asc"):
+def insertionSort(array,order="asc"):
     orderFunction = desc if order =="desc" else asc
 
     for index in range(1, len(array)):
@@ -19,4 +19,4 @@ def asc(value,value2):
 def desc(value,value2):
     return value>value2
 
-print(sort(array,"desc"))
+print(insertionSort(array,"desc"))

@@ -1,6 +1,6 @@
 array = [5,3,2,1,6,8,2,5,9]
 
-def SelectionSort(array):
+def selectionSort(array):
     
     for i in range(len(array)):
         min_value=i
@@ -12,4 +12,4 @@ def SelectionSort(array):
         array[i],array[min_value]=array[min_value],array[i]
     return array
 
-print(SelectionSort(array))
+print(selectionSort(array))

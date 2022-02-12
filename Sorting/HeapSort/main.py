@@ -24,8 +24,10 @@ def heapSort(arr):
         arr[i], arr[0] = arr[0], arr[i]
 
         heapify(arr, i, 0)
+    
+    return arr
 
-
+""" 
 array=[45,15,35,2,18,68,48,69,48,32,12,10]
-heapSort(array)
-print(array)
+print(heapSort(array))
+"""

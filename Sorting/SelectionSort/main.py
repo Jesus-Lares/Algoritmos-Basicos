@@ -1,4 +1,3 @@
-array = [5,3,2,1,6,8,2,5,9]
 
 def selectionSort(array):
     
@@ -12,4 +11,7 @@ def selectionSort(array):
         array[i],array[min_value]=array[min_value],array[i]
     return array
 
-print(selectionSort(array))
+""" 
+array = [5,3,2,1,6,8,2,5,9]
+print(selectionSort(array)) 
+"""

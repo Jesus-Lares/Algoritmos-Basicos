@@ -17,5 +17,7 @@ def quickSort(arr):
 
     return quickSort(left) + equal + quickSort(right)
 
+""" 
 array=[97,41,99,44,45,18,68,48,69,48,32,12,10]
-print(quickSort(array))
+print(quickSort(array)) 
+"""

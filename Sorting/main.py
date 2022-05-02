@@ -8,7 +8,7 @@ from MergeSort.main import mergeSort
 from QuickSort.main import quickSort
 from SelectionSort.main import selectionSort
 
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(100000)
 sortFunctions=[
     {'name':'Bubble sort','fn':bubbleSort},
     {'name':'Heap sort','fn':heapSort},

@@ -22,7 +22,9 @@ Para los algoritmos de busqueda en un grafo, estan los siguientes 2:
 * [Busqueda por anchura.](./Searching/BreadthFirstSearch) 
 
 ### Algoritmos de ordenamiento
-Existen distintas formas de ordenar los datos de un arreglo, claramente existen algunos que te proporcionan tener un mejor rendimiento a la hora de la busqueda, los algoritmos son los siguientes.
+Existen distintas formas de ordenar los datos de un arreglo, claramente existen algunos que te proporcionan tener un mejor rendimiento a la hora de la busqueda.
+
+Los algoritmos son los siguientes:
 
 * [Ordenamiento burbuja (Bubble sort).](./Sorting/BubbleSort) 
 * [Ordenamiento por monticulos (Heap sort).](./Sorting/HeapSort) 
@@ -57,6 +59,22 @@ Siendo el mas tardado el ordenamiento por monticulos, y el mas rapido el ordenam
 | Selección | 2.321037769317627 |
 
 Siendo el mas tardado el ordenamiento burbuja, y el mas rapido el ordenamiento por insercion.
+
+### Algoritmos de los arreglos
+En esta parte se posicionan los algoritmos que brindan soluciones a ciertas problemas que te pueden llegar a ocurrir cuando trabajas con arreglos.
+
+Los algoritmos son los siguientes:
+* [Algoritmo Kadane.](./Arrays/Kadane) 
+
+
+### Algoritmos de los grafos
+En esta parte se posicionan los algoritmos que brindan soluciones a ciertas problemas que te pueden llegar a ocurrir cuando trabajas con grafos, existen distintas maneras de representar un grafo por lo cual lo importante es el como se resuelve la problematica.
+
+Los algoritmos son los siguientes:
+* [Algoritmo Dijkstra.](./Graph/Dijkstra) 
+
+
+
 ## Como usar este repositorio
 * Baja el repositorio a tu computadora.
 * Ingresa al archivo que desea utilizar.
